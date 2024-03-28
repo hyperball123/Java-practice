@@ -1,5 +1,5 @@
 package MortgageCalcApp;
-
+//lambda expressions , stream api , method ref, default ref
 public class Mortgage {
     private final int principal;
     private final float annualInterest;

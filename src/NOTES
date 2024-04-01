@@ -1,4 +1,16 @@
-> UNTIL JAVA 1.7 WE DIDNT HAD THE ABILITY TO DEFINE METHODS IN AN INTERFACE BUT IN THE JAVA 1.8 THEY MADE SOME BIG
+Interfaces - interfaces are used to reduce coupling between classes the dependency between classes is reduced when we use interface
+             Interface tells you what should be done & classes tell u how it should be done
+We use interface to build loosely-coupled ,extensible ,testable applications.
+
+interface segregation - where we create different interfaces for different capabilities of interfaces and also
+                        we can extend main interface with the different interfaces
+
+
+Dependency injection - in java uses it to manage dependency between classes and promote loose coupling.It is a technique where the
+   dependencies of a class are provided from external sources rather than being created within the class itself
+------------------------------------------------------------------------------------------------------------
+
+> UNTIL JAVA 1.7 WE DID'NT HAD THE ABILITY TO DEFINE METHODS IN AN INTERFACE BUT IN THE JAVA 1.8 THEY MADE SOME BIG
   CHANGES UPDATES, WHICH ALLOWES DEVELOPERS TO ACTUALLY DEFINE METHODS INSIDE THE INTERFACE RATHER THAN DECLARING IT
 
 > Before Java 8, interfaces could have only abstract methods. The implementation of these methods has to be provided in a
@@ -11,3 +23,5 @@
 > lamda expression - we are avoiding lots of boiler plate code and the creation of
   class just for the implementation of class and directly write the implementation
   where we are creating an instance
+
+-----------------------------------------
